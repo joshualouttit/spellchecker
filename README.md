@@ -5,7 +5,7 @@ Context: After beginning to program with Harvards CS50 and UNSW's 1511, I really
 So how does it work? The most important part in understanding this program is understanding the design of the dictionary:
 
  - Dictionary Design [loadDictionary() & addToDictionary()]
- The dictionary is designed as a linked tree in order to minimialise the number of actions the computer must complete to determine whether or not a word is misspelt. If the longest word from the dictionary loaded into memory is N, the maximum number of times the computer will step through the linked tree is N times.
+The dictionary is designed as a linked tree in order to minimialise the number of actions the computer must complete to determine whether or not a word is misspelt. If the longest word from the dictionary loaded into memory is N, the maximum number of times the computer will step through the linked tree is N times.
  
 I can attempted to illustrate how this tree works in diagram.pdf, but essentially works by creating a node for each letter of a specific permutation which then points to all the possible letters that could come after. Consider the word 'cat'
 
