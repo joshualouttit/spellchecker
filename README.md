@@ -1,4 +1,6 @@
-Program summary: A spellchecker built in c++ using a linked tree for fast spellchecking of large documents.
+Program summary: A spellchecker built in c++ using a linked tree for fast spellchecking of large documents. The program will output a .txt file named to the users specification with all misspelled words according to the dictionary provided. When complied run as such:
+
+./spellchecker [dictionary].txt [file].txt [output_name].txt
 
 Context: After beginning to program with Harvards CS50 and UNSW's 1511, I really enjoy programming in C. The language makes sense and the writer has such control over the computer directly. unfortunately, C is not a high level language so this is the first project I have attempted to write C++. Inspired by CS50's speller.c problem, I have built a more complex spellchecker in c++. Compared to previous programs I have written this runs extremely quickly clocking about 0.18 - 0.22 seconds with the large.txt dictionary and sample txt files (both taken from Harvards CS50).
 
